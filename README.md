@@ -1,13 +1,9 @@
-# これは私の自己満botです
-初めてのbotです。
-
-# How to Use
-credential.py のようなファイルに
-```
-CONSUMER_KEY ='-------------------------'
-CONSUMER_SECRET ='---------------------------------------------------'
-ACCESS_TOKEN_KEY ='--------------------------------------------------'
-ACCESS_TOKEN_SECRET ='---------------------------------------------'
-```
-という形で書いてください
-RSSのURLは自分の好きな形に変更してもらって構いません
+# twitter-latest-news-bot
+好きな記事のRSSURLをコードに書くと最新記事が更新されるたびにtwitterに投稿されるbotです。
+## 動作に必要なもの
+- Python3
+- twython
+- feedparser
+## 必要なAPIKey
+- Twitter
+- credential.pyなどにAPIKeyを書くようにしましょう。
